@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 class Classcompintro extends Component {
   render() {
@@ -6,7 +6,7 @@ class Classcompintro extends Component {
       <>
         <h1>Classcompintro</h1>
       </>
-    )
+    );
   }
 }
 export default Classcompintro;

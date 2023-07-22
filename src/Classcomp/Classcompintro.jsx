@@ -4,7 +4,7 @@ class Classcompintro extends Component {
   render() {
     return (
       <>
-        <h1>Classcompintro</h1>
+        <h1 className="mx-5">Classcompintro</h1>
       </>
     );
   }

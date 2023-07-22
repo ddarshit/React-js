@@ -17,14 +17,14 @@ const Example = () => {
             <Link to="/Example/Functioncomp">Functional component</Link>
           </h3>
         </div>
-        <div className="row my-3">
+        <div className="row my-5">
           <div className="col-md-12">
             <Outlet></Outlet>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Example;

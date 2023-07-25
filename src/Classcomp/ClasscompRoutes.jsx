@@ -6,6 +6,8 @@ import Classcompprops from "./Classcompprops";
 import Classcompstate from "./Classcompstate";
 import Classcompstatelife from "./Classcompstatelife";
 import Classconditionrendaring from "./Classconditionrendaring";
+import Classcompuncontrol from "./Classcompuncontrol";
+import Classcompcontrol from "./Classcompcontrol";
 
 class ClasscompRoutes extends Component {
   render() {
@@ -16,7 +18,12 @@ class ClasscompRoutes extends Component {
           <Route path="Classcompprops" element={<Classcompprops />} />
           <Route path="Classcompstate" element={<Classcompstate />} />
           <Route path="Classcompstatelife" element={<Classcompstatelife />} />
-          <Route path="Classconditionrendaring" element={<Classconditionrendaring />} />
+          <Route
+            path="Classconditionrendaring"
+            element={<Classconditionrendaring />}
+          />
+          <Route path="Classcompuncontrol" element={<Classcompuncontrol />} />
+          <Route path="Classcompcontrol" element={<Classcompcontrol />} />
         </Route>
       </Routes>
     );

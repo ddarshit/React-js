@@ -8,7 +8,7 @@ export default function Slider() {
   return (
     <MDBCarousel showControls showIndicators dark fade>
       <MDBCarouselItem
-        className='w-90 d-block mx-auto'
+        className='w-55 mb-5 d-block mx-auto'
         itemId={1}
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg'
         alt='...'
@@ -17,7 +17,7 @@ export default function Slider() {
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
       <MDBCarouselItem
-        className='w-90 d-block mx-auto'
+        className='w-55 mb-5 d-block mx-auto'
         itemId={2}
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg'
         alt='...'
@@ -27,7 +27,7 @@ export default function Slider() {
       </MDBCarouselItem>
 
       <MDBCarouselItem
-        className='w-90 d-block mx-auto'
+        className='w-55 mb-5 d-block mx-auto'
         itemId={3}
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg'
         alt='...'

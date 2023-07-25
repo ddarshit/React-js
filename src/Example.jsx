@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Example = () => {
   return (
     <>
-      <div className="container mt-3 mx-auto"></div>
+      <div className="container-fluid mt-3 mx-auto"></div>
       {/* <h1 className="text-center">Example of class component and function component</h1> */}
       <div className="row">
         <div className="col-6 text-center">

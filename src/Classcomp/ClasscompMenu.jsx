@@ -33,6 +33,16 @@ class ClasscompMenu extends Component {
               <h3>Classconditionrendaring</h3>
             </Link>
           </li>
+          <li className="mx-5">
+            <Link to="Classcompuncontrol">
+              <h3>Classcompuncontrol</h3>
+            </Link>
+          </li>
+          <li className="mx-5">
+            <Link to="Classcompcontrol">
+              <h3>Classcompcontrol</h3>
+            </Link>
+          </li>
         </ul>
         <Outlet></Outlet>
       </>

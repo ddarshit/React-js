@@ -5,7 +5,7 @@ class Classcompstatelife extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className="mx-5">
           <h1>life</h1>
         </div>
       </>

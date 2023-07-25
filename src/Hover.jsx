@@ -18,22 +18,22 @@ export default class SimpleSlider extends Component {
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <h3><img src="https://picsum.photos/1000/500" alt="" className="mx-auto" /></h3>
           </div>
           <div>
-            <h3>2</h3>
+            <h3><img src="https://picsum.photos/1000/500" alt="" className="mx-auto" /></h3>
           </div>
           <div>
-            <h3>3</h3>
+            <h3><img src="https://picsum.photos/1000/500.jpg" alt="" className="mx-auto" /></h3>
           </div>
           <div>
-            <h3>4</h3>
+            <h3><img src="https://picsum.photos/1000/500.webp" alt="" className="mx-auto" /></h3>
           </div>
           <div>
-            <h3>5</h3>
+            <h3><img src="https://picsum.photos/1000/500?grayscale" alt="" className="mx-auto" /></h3>
           </div>
           <div>
-            <h3>6</h3>
+            <h3><img src="https://picsum.photos/seed/picsum/1000/500" alt="" className="mx-auto" /></h3>
           </div>
         </Slider>
       </div>

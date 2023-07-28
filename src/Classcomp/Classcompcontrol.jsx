@@ -5,7 +5,7 @@ class Classcompcontrol extends Component {
   constructor() {
     super();
     this.state = {
-      name: "darshit",
+      name: "",
     };
   }
 

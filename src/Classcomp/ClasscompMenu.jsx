@@ -43,6 +43,11 @@ class ClasscompMenu extends Component {
               <h3>Classcompcontrol</h3>
             </Link>
           </li>
+          <li className="mx-5">
+            <Link to="Classlistandkeys">
+              <h3>Classlistandkeys</h3>
+            </Link>
+          </li>
         </ul>
         <Outlet></Outlet>
       </>

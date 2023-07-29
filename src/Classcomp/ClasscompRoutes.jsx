@@ -9,6 +9,8 @@ import Classconditionrendaring from "./Classconditionrendaring";
 import Classcompuncontrol from "./Classcompuncontrol";
 import Classcompcontrol from "./Classcompcontrol";
 import Classlistandkeys from "./Classlistandkeys";
+import Stateliftingone from "./Statelifting/Stateliftingone";
+// import Stateliftingsecond from "./Statelifting/Stateliftingsecond";
 
 class ClasscompRoutes extends Component {
   render() {
@@ -26,6 +28,8 @@ class ClasscompRoutes extends Component {
           <Route path="Classcompuncontrol" element={<Classcompuncontrol />} />
           <Route path="Classcompcontrol" element={<Classcompcontrol />} />
           <Route path="Classlistandkeys" element={<Classlistandkeys />} />
+          <Route path="Stateliftingone" element={<Stateliftingone />} />
+          {/* <Route path="Stateliftingsecond" element={<Stateliftingsecond />} /> */}
         </Route>
       </Routes>
     );

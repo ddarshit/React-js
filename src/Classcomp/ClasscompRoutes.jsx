@@ -11,6 +11,9 @@ import Classcompcontrol from "./Classcompcontrol";
 import Classlistandkeys from "./Classlistandkeys";
 import Stateliftingone from "./Statelifting/Stateliftingone";
 // import Stateliftingsecond from "./Statelifting/Stateliftingsecond";
+import Compositionandinharitance from "./Compositionandinharitance";
+import Classhoc from "./HOC/Classhoc";
+
 
 class ClasscompRoutes extends Component {
   render() {
@@ -30,6 +33,8 @@ class ClasscompRoutes extends Component {
           <Route path="Classlistandkeys" element={<Classlistandkeys />} />
           <Route path="Stateliftingone" element={<Stateliftingone />} />
           {/* <Route path="Stateliftingsecond" element={<Stateliftingsecond />} /> */}
+          <Route path="Compositionandinharitance" element={<Compositionandinharitance />} />
+          <Route path="Classhoc" element={<Classhoc />} />
         </Route>
       </Routes>
     );

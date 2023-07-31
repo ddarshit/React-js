@@ -10,6 +10,7 @@ class Chlidcompforclass extends Component {
            <p>Chlidcompforclass</p>
            <h2>{this.props.name}</h2>
            <h3>{this.props.number}</h3>
+           <div>{this.props.children}</div>
            </>
         );
     }

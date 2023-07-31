@@ -58,6 +58,16 @@ class ClasscompMenu extends Component {
               <h3>Stateliftingsecond</h3>
             </Link>
           </li> */}
+          <li className="mx-5">
+            <Link to="Compositionandinharitance">
+              <h3>Compositionandinharitance</h3>
+            </Link>
+          </li>
+          <li className="mx-5">
+            <Link to="Classhoc">
+              <h3>Classhoc</h3>
+            </Link>
+          </li>
         </ul>
         <Outlet></Outlet>
       </>

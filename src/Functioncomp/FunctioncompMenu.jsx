@@ -20,6 +20,21 @@ const FunctioncompMenu = () => {
                   <h3>Usestate</h3>
                 </Link>
               </li>
+              <li>
+                <Link to="Functioncompprops">
+                  <h3>Functioncompprops</h3>
+                </Link>
+              </li>
+              <li>
+                <Link to="UseEffect">
+                  <h3>UseEffect</h3>
+                </Link>
+              </li>
+              <li>
+                <Link to="LayoutEffect">
+                  <h3>LayoutEffect</h3>
+                </Link>
+              </li>
             </div>
           </ul>
           <Outlet></Outlet>

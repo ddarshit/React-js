@@ -4,8 +4,8 @@ import { Link, Outlet } from "react-router-dom";
 const FunctioncompMenu = () => {
   return (
     <>
-      <div className="col-6"></div>
-      <div className="col-6">
+      {/* <div className="col-6"></div> */}
+      <div className= "col-3 me-auto offset-8">
         <ul>
           <div>
             <li>
@@ -41,6 +41,16 @@ const FunctioncompMenu = () => {
             <li>
               <Link to="Usecallback">
                 <h3>Usecallback</h3>
+              </Link>
+            </li>
+            <li>
+              <Link to="Usecontextone">
+                <h3>Usecontextone</h3>
+              </Link>
+            </li>
+            <li>
+              <Link to="UsecontextHook">
+                <h3>UsecontextHook</h3>
               </Link>
             </li>
           </div>

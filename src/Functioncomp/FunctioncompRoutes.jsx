@@ -8,6 +8,8 @@ import UseEffect from "./UseEffect";
 import LayoutEffect from "./LauoutEffect";
 import Usememo from "./Usememo";
 import Usecallback from "./Usecallback";
+import Usecontextone from "./Usecontextone";
+import UsecontextHook from "./UsecontextHook";
 
 const FunctioncompRoutes = () => {
   return (
@@ -20,6 +22,8 @@ const FunctioncompRoutes = () => {
         <Route path="LayoutEffect" element={<LayoutEffect />} />
         <Route path="Usememo" element={<Usememo />} />
         <Route path="Usecallback" element={<Usecallback />} />
+        <Route path="Usecontextone" element={<Usecontextone />} />
+        <Route path="UsecontextHook" element={<UsecontextHook />} />
       </Route>
     </Routes>
   );

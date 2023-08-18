@@ -10,6 +10,7 @@ import Usememo from "./Usememo";
 import Usecallback from "./Usecallback";
 import Usecontextone from "./Usecontextone";
 import UsecontextHook from "./UsecontextHook";
+import Usereducer from "./Usereducer";
 
 const FunctioncompRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const FunctioncompRoutes = () => {
         <Route path="Usecallback" element={<Usecallback />} />
         <Route path="Usecontextone" element={<Usecontextone />} />
         <Route path="UsecontextHook" element={<UsecontextHook />} />
+        <Route path="Usereducer" element={<Usereducer />} />
       </Route>
     </Routes>
   );

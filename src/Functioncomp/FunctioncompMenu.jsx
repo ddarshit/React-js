@@ -53,6 +53,11 @@ const FunctioncompMenu = () => {
                 <h3>UsecontextHook</h3>
               </Link>
             </li>
+            <li>
+              <Link to="Usereducer">
+                <h3>Usereducer</h3>
+              </Link>
+            </li>
           </div>
         </ul>
       </div>

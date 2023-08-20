@@ -11,6 +11,8 @@ import Usecallback from "./Usecallback";
 import Usecontextone from "./Usecontextone";
 import UsecontextHook from "./UsecontextHook";
 import Usereducer from "./Usereducer";
+import Useref from "./Useref";
+import Api from "./Api";
 
 const FunctioncompRoutes = () => {
   return (
@@ -26,6 +28,8 @@ const FunctioncompRoutes = () => {
         <Route path="Usecontextone" element={<Usecontextone />} />
         <Route path="UsecontextHook" element={<UsecontextHook />} />
         <Route path="Usereducer" element={<Usereducer />} />
+        <Route path="Useref" element={<Useref />} />
+        <Route path="Api" element={<Api />} />
       </Route>
     </Routes>
   );

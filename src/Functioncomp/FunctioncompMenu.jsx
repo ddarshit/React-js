@@ -58,6 +58,16 @@ const FunctioncompMenu = () => {
                 <h3>Usereducer</h3>
               </Link>
             </li>
+            <li>
+              <Link to="Useref">
+                <h3>Useref</h3>
+              </Link>
+            </li>
+            <li>
+              <Link to="Api">
+                <h3>Api</h3>
+              </Link>
+            </li>
           </div>
         </ul>
       </div>

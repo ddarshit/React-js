@@ -5,7 +5,7 @@ const Updatecounter = (Originalcompnent) => {
     class Newcomp extends Component {
       constructor() {
           super()
-          this.state ={
+          this.state = {
               count : 0
           }
         }

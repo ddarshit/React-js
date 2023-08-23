@@ -1,11 +1,10 @@
 import React from "react";
-import "./FunctioncompMenu.css";
-
 
 const Functioncompintro = () => {
   return (
     <>
-      <div className="func-intro">
+      <div className="col-6"></div>
+      <div className="col-6">
         <h1 className="margin2">Functioncompintro</h1>
       </div>
     </>

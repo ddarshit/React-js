@@ -1,30 +1,27 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 
 const LayoutEffect = () => {
+  const [text, setText] = useState("welcome");
+  const [loading, setLoading] = useState(true);
 
-    const [text,setText] = useState ('welcome')
-    const [loading,setLoading] = useState (true)
-  
-
-    useLayoutEffect (() =>{
-        if(!loading){
-            setText('go to hell')
-        }
-        else{
-            setText('welcome')
-        }
-
-    })
-//   useEffect(()=> {
-//     console.log("useeffect")
-//   })
-//   useLayoutEffect(()=> {
-//     console.log("useLayoutEffect")
-//   })
-    return (
+  useLayoutEffect(() => {
+    if (!loading) {
+      setText("go to hell");
+    } else {
+      setText("welcome");
+    }
+  });
+  //   useEffect(()=> {
+  //     console.log("useeffect")
+  //   })
+  //   useLayoutEffect(()=> {
+  //     console.log("useLayoutEffect")
+  //   })
+  return (
     <>
-      <div className="func-intro">
-        <h1 className="margin2">LayoutEffect</h1>
+      <div className="col-6"></div>
+      <div className="col-6">
+        <h1>LayoutEffect</h1>
         <p>{text}</p>
       </div>
     </>

@@ -68,6 +68,11 @@ const FunctioncompMenu = () => {
                 <h3>Api</h3>
               </Link>
             </li>
+            <li>
+              <Link to="Apipost">
+                <h3>Apipost</h3>
+              </Link>
+            </li>
           </div>
         </ul>
       </div>

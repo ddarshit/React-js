@@ -15,7 +15,7 @@ const Apichild = () => {
         setUser(resp);
       });
     });
-  });
+  },[]);
 
   return (
     <>

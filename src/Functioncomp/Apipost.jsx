@@ -10,6 +10,19 @@ const Apipost = () => {
     // console.log(name, email, password);
     let data = { name, email, password };
 
+    if ((name = " ")) {
+      alert("enter your name");
+    }
+     else if ((email = " ")) {
+      alert("enter your email");
+    } 
+    else if ((password = " ")) {
+      alert("enter your password");
+    }
+     else if ((user = " ")) {
+      alert("enter your user");
+    }
+
     fetch("http://localhost:5000/user", {
       method: "POST",
       headers: {
@@ -30,13 +43,13 @@ const Apipost = () => {
         setUser(resp);
       });
     });
-  },[]);
+  }, []);
 
   return (
     <>
       <h1>api post</h1>
       <form>
-        <table width="50%" align="center">
+        <table width="50%" align="center" border="1">
           <tr>
             <td>
               <label htmlFor="">Username</label>
@@ -85,21 +98,19 @@ const Apipost = () => {
         <br />
         <br />
         <table border="1" width="70%" align="center">
-        <tr>
-          <td>name</td>
-          <td>email</td>
-          <td>password</td>
-          {/* <td>completed</td> */}
-        </tr>
-        {user.map((item) => (
           <tr>
-            <td>{item.name}</td>
-            <td>{item.email}</td>
-            <td>{item.password}</td>
-            {/* <td>{item.completed == true ? "True" : "False"}</td> */}
+            <td>name</td>
+            <td>email</td>
+            <td>password</td>
           </tr>
-        ))}
-      </table>
+          {user.map((item) => (
+            <tr>
+              <td>{item.name}</td>
+              <td>{item.email}</td>
+              <td>{item.password}</td>
+            </tr>
+          ))}
+        </table>
       </form>
     </>
   );

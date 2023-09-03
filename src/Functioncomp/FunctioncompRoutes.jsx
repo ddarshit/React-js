@@ -14,6 +14,8 @@ import Usereducer from "./Usereducer";
 import Useref from "./Useref";
 import Api from "./Api";
 import Apipost from "./Apipost";
+import Custommycomp from "./Custommycomp";
+import Customhook from "./Customhook";
 
 const FunctioncompRoutes = () => {
   return (
@@ -32,6 +34,9 @@ const FunctioncompRoutes = () => {
         <Route path="Useref" element={<Useref />} />
         <Route path="Api" element={<Api />} />
         <Route path="Apipost" element={<Apipost />} />
+        <Route path="Custommycomp" element={<Custommycomp />} />
+        <Route path="Customhook" element={<Customhook />} />
+
       </Route>
     </Routes>
   );

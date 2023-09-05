@@ -8,20 +8,24 @@ const Apipost = () => {
 
   function savedata() {
     // console.log(name, email, password);
-    let data = { name, email, password };
+    // let data = { name, email, password };
 
-    if ((name = " ")) {
+    if (name === "") {
       alert("enter your name");
     }
-     else if ((email = " ")) {
+     else if (email === "") {
       alert("enter your email");
     } 
-    else if ((password = " ")) {
+    else if (password === "") {
       alert("enter your password");
     }
-     else if ((user = " ")) {
+     else if (user === "") {
       alert("enter your user");
     }
+    // else  {name,email,password,user}
+    else {
+      const data = {name, email, password}
+    
 
     fetch("http://localhost:5000/user", {
       method: "POST",
@@ -35,6 +39,7 @@ const Apipost = () => {
         console.log(resp);
       });
     });
+    }
   }
   useEffect(() => {
     fetch("http://localhost:5000/user").then((data) => {
@@ -103,7 +108,7 @@ const Apipost = () => {
             <td>email</td>
             <td>password</td>
           </tr>
-          {user.map((item) => (
+          {user.reverse().map((item) => (
             <tr>
               <td>{item.name}</td>
               <td>{item.email}</td>

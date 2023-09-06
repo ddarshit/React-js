@@ -32,7 +32,8 @@ const Apichild = () => {
             <td>{item.userId}</td>
             <td>{item.id}</td>
             <td>{item.title}</td>
-            <td>{item.completed == true ? "True" : "False"}</td>
+            {/* <td>{item.completed == true ? "True" : "False"}</td> */}
+            <td>{item.completed.toString()}</td>
           </tr>
         ))}
       </table>

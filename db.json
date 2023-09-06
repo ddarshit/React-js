@@ -7,10 +7,40 @@
       "password": "123"
     },
     {
-      "name": "ecdcc",
-      "email": "dcd@dcd",
-      "password": "cdcdx",
-      "id": 1
+      "name": "Tapan",
+      "email": "tapan@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "neel",
+      "email": "neel@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "aadi",
+      "email": "aadi@gmail.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "mihir",
+      "email": "mihir@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "dhyansh",
+      "email": "dhyansh@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "Darshit",
+      "email": "darshit@gmail.com",
+      "password": "123",
+      "id": 11
     }
   ]
 }

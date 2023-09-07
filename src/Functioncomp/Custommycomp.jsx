@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Usemymaincostomhook from './Usemymaincostomhook'
+import Customcount from './Customcount'
 
 const Custommycomp = () => {
     const [count , setCount] = useState(0)
@@ -9,7 +10,7 @@ const Custommycomp = () => {
     // },[count])
 
     Usemymaincostomhook(count)
-
+    // Customcount(count)
 
     return ( 
         <>

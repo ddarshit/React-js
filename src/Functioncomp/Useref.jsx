@@ -6,8 +6,8 @@ const Useref = () => {
   function inputFunction() {
     // inputref.current.value = "100"
     // inputref.current.focus() 
-    // inputref.current.style.color = "blue" 
-    inputref.current.value.toUpperCase()
+    inputref.current.style.color = "blue" 
+    // inputref.current.value.toUpperCase()
   }
   return (
     <>

@@ -83,6 +83,11 @@ const FunctioncompMenu = () => {
                 <h3>Customhook</h3>
               </Link>
             </li>
+            <li>
+              <Link to="Crud">
+                <h3>Crud</h3>
+              </Link>
+            </li>
           </div>
         </ul>
       </div>

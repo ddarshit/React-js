@@ -16,6 +16,7 @@ import Api from "./Api";
 import Apipost from "./Apipost";
 import Custommycomp from "./Custommycomp";
 import Customhook from "./Customhook";
+import Crud from "./Crud";
 
 const FunctioncompRoutes = () => {
   return (
@@ -36,6 +37,7 @@ const FunctioncompRoutes = () => {
         <Route path="Apipost" element={<Apipost />} />
         <Route path="Custommycomp" element={<Custommycomp />} />
         <Route path="Customhook" element={<Customhook />} />
+        <Route path="Crud" element={<Crud />} />
 
       </Route>
     </Routes>

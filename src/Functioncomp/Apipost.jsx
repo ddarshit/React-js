@@ -108,7 +108,8 @@ const Apipost = () => {
             <td>email</td>
             <td>password</td>
           </tr>
-          {user.reverse().map((item) => (
+          {/* {user.reverse().map((item) => ( */}
+          {user.map((item) => (
             <tr>
               <td>{item.name}</td>
               <td>{item.email}</td>
